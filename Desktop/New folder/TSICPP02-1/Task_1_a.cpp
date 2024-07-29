@@ -1,3 +1,10 @@
+/*=================================================================
+/* TSICPP02-1: Teresol
+/* Name : Ibrar Younis
+/* Task No.: 1_a.
+/*===================================================================================
+/*   Define a struct for a student with fields for name, age, and grade.
+/*===================================================================================*/
 #include <iostream>
 #include <cstring> // For strcpy
 using namespace std;
