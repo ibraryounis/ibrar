@@ -1,25 +1,23 @@
 /*=================================================================================
 /* TSICPP03-1: Teresol
 /* Name : Ibrar Younis
-/* Task No.: 2_1.
+/* Task No.: 2_2.
 /*===================================================================================
-/*  Write a function that attempts to modify an integer value by passing it by value.
+/*  Write a function that attempts to modify an integer value by passing it by reference.
 /*===================================================================================*/
 #include <iostream>
 using namespace std;
 
-void modifyValue(int original ) {
-    original = 66; // Attempt to modify the value
-    cout << "Inside modifyValue: " << original << endl;
-
+void modifyValue(int &num) {
+    num = 42; // Attempt to modify the value
+    cout << "Inside modifyValue: " <<&num << endl;
 }
 
-int main()
- {
+int main() {
     int original = 10;
     cout << "Before modifyValue: " << original << endl;
     modifyValue(original);
-    cout << "After modifyValue: " << original << endl;
-
-
+    cout << "After modifyValue: " << &original << endl;
+    
+    return 0;
 }

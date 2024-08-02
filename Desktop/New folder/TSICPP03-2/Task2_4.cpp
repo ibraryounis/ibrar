@@ -12,7 +12,7 @@ using namespace std;
 //Example: gcd(6, 8) should return 24.
 int LCM(int a, int b)
 {
- for(int i=2;i<13;i++)
+ for(int i=2;i<17;i++)
  {
  	cout<<endl;
  	if(a%i==0)

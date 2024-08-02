@@ -7,8 +7,8 @@
 /*===================================================================================*/
 #include<iostream>
 using namespace std;
-float area(float leng, float wid);
-int main(void)
+float area(float leng, float wid); //funct portotype
+int main(void)                     // main func
 {
 	float leng;
 	float
@@ -18,9 +18,12 @@ int main(void)
 	cout<<"enter the width="<<endl;
 	cin>>wid;
 	cout<<"\n area="<<	area(leng,wid)<<endl;
+    int c=area(leng,wid);
 	return 0;
 }
-float area(float leng, float wid)
+float area(float leng, float wid) // funct defin
 {
-	return(leng*wid);
+    float b=leng*wid;
+	return b;
+
 }
