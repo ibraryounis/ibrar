@@ -1,5 +1,5 @@
 /*=================================================================================
-/* TSICPP03-1: Teresol
+/* TSICPP03-2: Teresol
 /* Name : Ibrar Younis
 /* Task No.: 2_1.
 /*===================================================================================
@@ -18,5 +18,13 @@ int fact(int n)
     {
       return  n*fact(n-1);
     }
-    cout<<"factorial of number"<<fact(n)<<endl;
+    
+}
+int main()
+{
+ int n;
+ cout<<"enter the number=";
+ cin>>n;
+
+  cout<<"factorial of number=\n"<<fact(n)<<endl;
 }
